@@ -14,7 +14,7 @@ var playState = {
     },
     preload: function() {
       game.load.crossOrigin = 'anonymous';
-      game.load.image('background', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1171931/clouds-h.png');
+      game.load.image('background', 'images/clouds-h.png');
       game.load.image('player', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1171931/pirate-1.png');
       game.load.image('ground', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1171931/ground.png');
       game.load.image('grass:4x1', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/1171931/grass_4x1.png');
